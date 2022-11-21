@@ -1,4 +1,4 @@
-import react, {useEffect, useRef, useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import {Button, OutlinedInput} from "@mui/material";
 
 function AddTodo(props) {
@@ -25,7 +25,7 @@ function AddTodo(props) {
   };
 
   return (
-      <form onSubmit={handleSubmit} className='todo-form'>
+      <form onSubmit={handleSubmit} sx={{display: 'flex', marginTop: '2rem'}} className='todo-form'>
         {props.edit ? (
             <>
               <OutlinedInput

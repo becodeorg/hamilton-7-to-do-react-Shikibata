@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding-top: 10px;
+}
+
+button {
+  width: 4rem;
+  height: 100%;
+}
+
+.todo-container {
+  margin:4rem auto;
+  padding:2rem 3rem 3rem;
+  max-width:500px;
+  background: #00B295;
+  color:#FFF;
+  color: #c8d9ea;
+  box-shadow:-20px -20px 0px 0px rgba(201, 218, 234,.1);
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.todo-input {
+  background-color: white;
+}
+
+.App-header {
+  text-align:left;
+  font-weight:normal;
+  font-size:1.2rem;
+  letter-spacing:0.05em;
+  border-bottom:1px solid rgba(255,255,255,.3);
+}
+
+.App-header span {
+  display:block;
+  font-size:0.8rem;
+  margin-bottom:0.7rem;
+  margin-left:3px;
+  margin-top:0.2rem;
+}
+
+.todo-row {
+  display:flex;
+  width: 100%;
+  margin:0 -3rem 4px;
+  justify-content:space-around;
+  align-items:center;
+  background:rgba(255,255,255,0.1);
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.row-p {
+  width: 60%;
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.delete-icon, .edit-icon {
+  cursor: pointer;
+}
+.complete {
+  text-decoration: line-through;
+}
+
+.todo-input {
+  border-radius: 40px;
+}
