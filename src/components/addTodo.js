@@ -47,12 +47,12 @@ function AddTodo(props) {
                   value={input}
                   onChange={handleChange}
                   name='text'
-                  className='todo-input'
+                  className={'todo-input'}
                   ref={inputRef}
               />
-              <Button onClick={handleSubmit} className='todo-button'>
-                Add todo
-              </Button>
+              <button onClick={handleSubmit} className={'todo-button'}>
+                Add
+              </button>
             </>
         )}
       </form>
